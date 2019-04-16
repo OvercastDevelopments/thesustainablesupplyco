@@ -19,6 +19,41 @@
         </nav>
     </div>
 
+    <div id="contactwrapper">
+        <div id="contactusheaderwrapper">
+            <h1 id="contactusheader">Contact Us</h1>
+        </div>
+
+        <div id="formwrapper">
+            <form action="https://formspree.io/izaacmarccrooke16@gmail.com" method="POST" >
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" name="First_Name" required placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" name="Last_Name" required placeholder="Last name">
+                    </div>
+                </div>
+                <input type="text" style="margin-top: 3%;" required name="Email" class="form-control" placeholder="Email Address">
+                <div class="col-auto my-1">
+                    <select class="custom-select mr-sm-2" name="Enquiry_Type" required id="inlineFormCustomSelect"
+                            style="margin-top: 3%; margin-left: -2%; width: 104%;">
+                        <option selected>Choose...</option>
+                        <option value="1">General Enquiry</option>
+                        <option value="2">Complaint</option>
+                        <option value="3">Business</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="Description" required style="margin-top: 3%; height: 150px;" id="exampleFormControlTextarea1" rows="3" placeholder="Description"></textarea>
+                </div>
+                <button type="submit" id="submitform" class="btn btn-secondary btn-lg">Submit Form</button>
+            </form>
+        </div>
+
+    </div>
+
 </div>
 <div id="footer">
     <p>@Copyright Overcast Developments</p>

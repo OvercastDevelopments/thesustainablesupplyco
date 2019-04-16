@@ -45,11 +45,12 @@ html {
 #welcomeheader{
     margin-top: 20%;
     text-align: center;
+    font-weight: bold;
 }
 #welcomeheadwrapper{
-    width: 600px;
+    width: 55%;
     height: 50px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.4 );
     margin-top: 19%;
     display: block;
     margin-left: auto;
@@ -94,7 +95,7 @@ html {
     width: 140px;
 }
 #faqheaderwrapper{
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.4);
     width: 140px;
     height: 84px;
     margin-top: 18%;
@@ -111,16 +112,46 @@ html {
 #faqheader{
     text-align: center;
     font-size: 60px;
+    font-weight: bolder;
 }
 #storeheaderwrapper{
-    width: 600px;
-    height: 105px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.4);
+    width: 55%;
+    margin-top: 17%;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 16%;
 }
 #storeheader{
     font-size: 80px;
     text-align: center;
+    font-weight: bolder;
+    margin-top: 15%;
 }
+#formwrapper{
+    width: 53%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+}
+
+#contactusheader{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+#contactusheaderwrapper{
+    background: rgba(255, 255, 255, 0.6);
+    width: 55%;
+    margin-top: 10%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#submitform{
+    margin-left: 43%;
+    margin-top: 3%;
+}
+
+
+
