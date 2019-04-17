@@ -149,8 +149,61 @@ html {
     margin-left: auto;
 }
 #submitform{
-    margin-left: 43%;
+    margin-left: 37%;
     margin-top: 3%;
+}
+@media screen and (max-width: 700px){
+    #contactusheader{
+        font-size: 30px;
+    }
+    #formwrapper{
+        width: 70%;
+    }
+    #submitform{
+        margin-left: 23%;
+    }
+    #storeheader{
+        font-size: 30px;
+    }
+    #storeheaderwrapper{
+        margin-top: 50%;
+    }
+    #faqheader{
+        font-size: 30px;
+    }
+    #faqheaderwrapper{
+        height: 5%;
+        width: 20%;
+        margin-top: 10%;
+    }
+    #faqwrapper{
+        font-size: 12px;
+        height: 73%;
+        margin-top: 18%;
+    }
+    #aboutwrapper{
+        height: 800px;
+    }
+    #welcomeheader{
+        font-size: 20px;
+    }
+    #welcomeheadwrapper{
+        margin-top: 35%;
+    }
+    #content{
+        margin-top: 50%;
+        font-size: 14px;
+    }
+    #logoimage{
+        width: 80px;
+        height: 80px;
+    }
+    #wrapper{
+        height: 1150px;
+    }
+    #contentbutton{
+        margin-left: 35%;
+    }
 }
 
 
